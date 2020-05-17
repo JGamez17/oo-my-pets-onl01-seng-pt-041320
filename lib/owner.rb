@@ -4,4 +4,6 @@ class Owner
   @@all = []
   
   def initialize (name,species="human")
+    
+  end
 end
