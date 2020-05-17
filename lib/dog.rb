@@ -1,6 +1,5 @@
 class Dog
-
-attr_accessor :owner, :mood
+  attr_accessor :owner, :mood
   attr_reader :name
   @@all = []
 
@@ -16,5 +15,5 @@ attr_accessor :owner, :mood
   def save
     self.class.all << self
   end
-  
+
 end
